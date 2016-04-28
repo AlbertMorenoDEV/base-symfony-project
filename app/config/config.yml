@@ -64,3 +64,10 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+# KnpMenu Configuration
+knp_menu:
+    twig:
+        template: knp_menu_bootstrap.html.twig
+    templating: false
+    default_renderer: twig

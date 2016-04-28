@@ -1,0 +1,21 @@
+{
+  "name": "base-symfony-project",
+  "homepage": "https://github.com/AlbertMorenoDEV/base-symfony-project",
+  "authors": [
+    "Albert Moreno <albertmorenovendrell@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/assets/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

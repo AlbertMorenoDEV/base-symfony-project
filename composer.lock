@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9791d4df8ff9d24133d4f7c0e22d0f68",
-    "content-hash": "a4330f1a3b0734b351dc771fa476d041",
+    "hash": "d1270b5751a4e154286ef5d52959779b",
+    "content-hash": "bb0ad15254b37ff4baabf064a9e770f4",
     "packages": [
         {
             "name": "braincrafted/bootstrap-bundle",
@@ -919,17 +919,6 @@
                 "sql"
             ],
             "time": "2014-01-12 16:20:24"
-        },
-        {
-            "name": "jquery/jquery",
-            "version": "1.12.3",
-            "dist": {
-                "type": "file",
-                "url": "https://code.jquery.com/jquery-1.12.3.js",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "library"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -2211,48 +2200,6 @@
                 "framework"
             ],
             "time": "2016-03-27 12:57:53"
-        },
-        {
-            "name": "twbs/bootstrap",
-            "version": "v3.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "6d03173a1aad98e75f7d33e65b411c519176c59a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6d03173a1aad98e75f7d33e65b411c519176c59a",
-                "reference": "6d03173a1aad98e75f7d33e65b411c519176c59a",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Jacob Thornton",
-                    "email": "jacobthornton@gmail.com"
-                },
-                {
-                    "name": "Mark Otto",
-                    "email": "markdotto@gmail.com"
-                }
-            ],
-            "description": "Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.",
-            "homepage": "http://getbootstrap.com",
-            "keywords": [
-                "bootstrap",
-                "css"
-            ],
-            "time": "2013-12-05 16:09:10"
         },
         {
             "name": "twig/twig",

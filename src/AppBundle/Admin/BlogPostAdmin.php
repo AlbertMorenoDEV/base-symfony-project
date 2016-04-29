@@ -3,6 +3,7 @@ namespace AppBundle\Admin;
 
 use AppBundle\Entity\BlogPost;
 use Sonata\AdminBundle\Admin\Admin;
+use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Form\FormMapper;
 
@@ -28,9 +29,22 @@ class BlogPostAdmin extends Admin
             ->end();
     }
 
+    protected function configureDatagridFilters(DatagridMapper $datagridMapper)
+    {
+        $datagridMapper
+            ->add('title')
+            ->add('category', null, [], 'entity', [
+                'class' => 'AppBundle\Entity\Category',
+                'property' => 'name',
+            ]);
+    }
+
     protected function configureListFields(ListMapper $listMapper)
     {
-        $listMapper->addIdentifier('title');
+        $listMapper
+            ->addIdentifier('title')
+            ->add('category.name')
+            ->add('draft');
     }
 
     public function toString($object)
